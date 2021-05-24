@@ -1,0 +1,28 @@
+#intro {
+    background-image: url(https://cdn.dribbble.com/users/507883/screenshots/13801545/media/e0ad9ccf44dbd83bbe6e599569fa5f4c.jpg);
+    height: 107.4vh;
+  }
+
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #intro {
+      margin-top: -58.59px;
+    }
+  }
+
+@media(max-width: 992px){
+  #intro {
+    height: 104.3vh;
+    margin-top: -2rem;
+  }
+}
+
+  #logo-center{
+      color: white;
+      text-align: center;
+      padding: 5%;
+  }
+  
+  #logo-center i{
+    margin-bottom: 10px;
+}

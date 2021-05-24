@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter Signup</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="intro" class="bg-image shadow-2-strong">
+      <div
+        class="mask d-flex align-items-center h-100"
+        style="background-color: rgba(0, 0, 0, 0.8)"
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-5 col-md-8">
+              <div id="logo-center">
+                <i class="fab fa-mailchimp fa-10x"></i>
+                <br />
+                <h5>Sign up to our Newsletter</h5>
+              </div>
+
+              <form class="bg-white rounded shadow-5-strong p-5" method="post">
+                <!-- First name -->
+                <div class="form-outline mb-4">
+                  <input
+                    type="text"
+                    name="firstName"
+                    id="firstName"
+                    class="form-control"
+                    required
+                    autofocus
+                  />
+                  <label for="firstName" class="form-label">
+                    <i class="fa fa-user" aria-hidden="true"></i> First
+                    Name</label
+                  >
+                </div>
+                <!-- Last name -->
+                <div class="form-outline mb-4">
+                  <input
+                    type="text"
+                    name="lastName"
+                    id="lastName"
+                    class="form-control"
+                    required
+                  />
+                  <label for="lastName" class="form-label">
+                    <i class="fas fa-user-friends"></i> Last name</label
+                  >
+                </div>
+                <!-- Email -->
+                <div class="form-outline mb-4">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                    required
+                  />
+                  <label for="email" class="form-label">
+                    <i class="fa fa-envelope" aria-hidden="true"></i> Email
+                    Address</label
+                  >
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block">
+                  Sign up
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
+    ></script>
+  </body>
+</html>
